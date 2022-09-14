@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_container {
+  margin: 50px 150px;
+}
+.container__content {
+  display: flex;
+}
+.container__content_1 {
+  display: flex;
+  flex-direction: row;
+}
+.container__content_1_img-1 {
+  width: 40%;
+  height: 40%;
+  margin: 15px 10px;
+  padding: 0px 20px;
+}
+.container__content_text-1 {
+  /* width: 50%; */
+  margin: 10%;
+}

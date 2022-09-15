@@ -4,19 +4,33 @@
   box-sizing: border-box;
 }
 .header {
-  /* background-image: url(./media/what_does_a_cover_letter_look_like_3.jpg); */
+  /* background-image: url(./img/bg-shop.jpg); */
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: absolute;
+  width: 80%;
+  margin-top: 2%;
+}
+.bgrnd-header {
+  width: 100%;
+  /* height: 300px; */
 }
 .main_container {
   margin: 50px 150px;
 }
 .container__content {
   display: flex;
+  padding-top: 45%;
 }
 /* block 1 */
 .container__content_1 {
@@ -24,7 +38,7 @@
   flex-direction: row;
 }
 .container__content_1_img-1 {
-  width: 40%;
+  width: 50%;
   height: 40%;
   margin: 15px 10px;
   padding: 0px 20px;
@@ -58,17 +72,82 @@
 .container__content_3_img-3 {
   width: 40%;
   height: 40%;
-  margin: 15px 10px;
+  margin: 20px 0px;
   padding: 0px 20px;
 }
 .container__content_text-3 {
   /* width: 50%; */
-  margin: 10%;
+  margin: 5%;
 }
 
 /* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  width: 100%; */
+  /* left: 100px; */
+  margin-top: 2%;
+}
+.container__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .footer {
+  background-image: url(./img/dzhdinsy.jpg);
+  opacity: 0.5;
+  display: flex;
   width: 100%;
-  height: 200px;
-  background-image: url(./media/416_116943_190919tipsforonlinesubmission_TopResume_hero.jpg);
+  height: 180px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-button {
+  position: absolute;
+  width: 200px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./img/6781c3d2961edfa78431349715d81511.png);
+  background-size: 195px 65px;
+  border: 3px rgb(82, 104, 82) outset;
+  right: 25%;
+  border-radius: 5px;
+}
+/* .footer-button-img {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  opacity: 0.3;
+} */
+.footer-button-2 {
+  position: absolute;
+  width: 200px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./img/faeIfnlA.jpg);
+  background-color: aqua;
+  background-size: 195px 65px;
+  border-radius: 5px;
+  border: 3px rgb(82, 104, 82) inset;
+  left: 25%;
+}
+.ashka {
+  text-decoration: none;
+}
+.cont-footer-h3 {
+  /* position: absolute; */
+  font-size: 50px;
+  text-decoration: none;
+  /* left: 475px;
+  margin-top: 180px; */
+}
+.logo-other {
+  display: flex;
+  justify-content: space-between;
 }

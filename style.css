@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 .header {
+  background-image: url(./media/what_does_a_cover_letter_look_like_3.jpg);
+  width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,6 +18,7 @@
 .container__content {
   display: flex;
 }
+/* block 1 */
 .container__content_1 {
   display: flex;
   flex-direction: row;
@@ -28,4 +32,43 @@
 .container__content_text-1 {
   /* width: 50%; */
   margin: 10%;
+}
+/* block 2 */
+.container__content_2 {
+  display: flex;
+  flex-direction: row;
+}
+.container__content_2_img-2 {
+  width: 40%;
+  height: 40%;
+  margin: 15px 10px;
+  padding: 0px 20px;
+}
+.container__content_text-2 {
+  /* width: 50%; */
+  margin: 10%;
+}
+
+/* block 3 */
+
+.container__content_3 {
+  display: flex;
+  flex-direction: row;
+}
+.container__content_3_img-3 {
+  width: 40%;
+  height: 40%;
+  margin: 15px 10px;
+  padding: 0px 20px;
+}
+.container__content_text-3 {
+  /* width: 50%; */
+  margin: 10%;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 200px;
+  background-image: url(./media/416_116943_190919tipsforonlinesubmission_TopResume_hero.jpg);
 }

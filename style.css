@@ -4,19 +4,33 @@
   box-sizing: border-box;
 }
 .header {
-  background-image: url(./media/what_does_a_cover_letter_look_like_3.jpg);
+  /* background-image: url(./img/bg-shop.jpg); */
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: absolute;
+  width: 80%;
+  margin-top: 2%;
+}
+.bgrnd-header {
+  width: 100%;
+  /* height: 300px; */
 }
 .main_container {
   margin: 50px 150px;
 }
 .container__content {
   display: flex;
+  padding-top: 45%;
 }
 /* block 1 */
 .container__content_1 {
